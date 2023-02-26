@@ -1,0 +1,63 @@
+.list-items {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items-info span {
+    margin: 0px 5px;
+}
+
+.list-items-info {
+    cursor: grab;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 5px;
+    margin: 2px auto;
+    width: 80%;
+    background-color: rgba(112, 128, 144, 0.438);
+    border-radius: 50px;
+}
+
+.list-items-info__number {
+    font-weight: bold;
+    font-family: 'Roboto';
+    background-color: seagreen;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.list-items-info__counter {
+    background-color: slategray;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.list-items-info__delete {
+    background-color: rgb(226, 123, 97);
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: white;
+    padding: 11px 23px;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.list-items-info__delete:hover {
+    background-color: rgb(207, 102, 76);
+}
+
+.list-items-info__text {
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: white;
+    width: 150px;
+}

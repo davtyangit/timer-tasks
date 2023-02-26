@@ -1,0 +1,9 @@
+.app-header {
+  background-color: slategray;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  font-family: 'Roboto';
+  border-radius: 20px 20px 0px 0px;
+}
